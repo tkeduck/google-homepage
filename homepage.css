@@ -1,0 +1,50 @@
+#top_nav{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    padding:.25in;
+}
+#top_left_nav{
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+#top_left_nav #about_link a:link{
+    color: gray;
+    text-decoration: none;
+}
+#top_left_nav #store_link a:link{
+    color: gray;
+    text-decoration: none;
+}
+ #top_right_nav{
+     display: grid;
+     grid-template-columns: 40% 10% 12.5% 12.5% 25%;
+     grid-template-rows: 0.25in;
+     vertical-align: middle;
+ }
+
+ #top_right_nav img{
+     max-height: .15in;
+     max-width: .15in;
+ }
+#top_right_nav a:link{
+    color: gray;
+    text-decoration: none;
+}
+#top_right_nav #gmail_link{
+    text-align: left;
+}
+#top_right_nav #google_account_link{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 0;
+}
+#top_right_nav #google_account_link #sign_in{
+    background-color: #4583ec;
+}
+#top_right_nav #google_account_link a:link{
+    color: white;
+}
+#main{
+    padding: 1in;
+}
