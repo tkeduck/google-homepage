@@ -1,0 +1,11 @@
+#outer_wrapper {
+    display: grid;
+    grid-template-columns: [outer-left] 1fr [center-left] 1fr [center-right] 1fr [outer-right];
+    grid-template-rows: [top] 1fr [center-top] 1fr[center-bottom] 1fr[bottom];
+}
+
+#left_nav_wrapper{
+    display: grid;
+    grid-template-rows: [outer-left] 1fr [center-left] 1fr [center-right] 1fr [outer-right];
+    grid-template-columns: [top] 1fr [center-top] 1fr [center-bottom] 1fr [bottom];
+}
